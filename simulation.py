@@ -293,7 +293,7 @@ def draw_workshops_and_assign(screen, sim):
         label = font_label.render(f"P{p.pid}", True, BLACK)
         screen.blit(label, (WS2_RECT.centerx - 12, WS2_RECT.centery - 8))
 
-    # WS2 info
+    # WS2-- info
     font2 = pygame.font.SysFont("Consolas", 16)
     q_count = len(sim.queue_ws2)
     current = sim.ws2_current_id if sim.ws2_current_id is not None else "-"
